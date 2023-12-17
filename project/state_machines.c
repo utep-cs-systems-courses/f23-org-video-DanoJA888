@@ -110,13 +110,9 @@ void buzzerTimeUpdate()
     }
   // Ensure a single call to buzzerUpdate even if no switch is pressed
   if (buzzTimeCount >= 300)
-
     {
-
       buzzTimeCount = 0;
-
     }
-
 }
 short redrawScreen = 1;
 
